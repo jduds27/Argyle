@@ -1,0 +1,61 @@
+@import "bootstrap";
+
+
+.jumbotron {
+  background-image:url('home.jpg');
+  height:400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  max-width: 1250px;
+  position: relative;
+ 
+}
+
+
+  .jumbotron .container {
+  max-width: 1250px;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.white-text {
+  color:white;
+}
+  
+.p-text {
+  color: lightgrey;
+}
+
+.lead {
+  color: lightgrey;
+}
